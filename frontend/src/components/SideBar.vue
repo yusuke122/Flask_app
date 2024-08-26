@@ -1,5 +1,6 @@
 <template>
     <div>sidebar{{title}}</div>
+    <button type="button" class="btn btn-primary">Bootstrap</button>
 </template>
   
   <script>
