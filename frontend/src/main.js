@@ -6,6 +6,7 @@ import App from './App.vue'
 //import Sidebar from './components/SideBar.vue;
 
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 //import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 
