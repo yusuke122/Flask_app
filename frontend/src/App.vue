@@ -1,18 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome!! to Your Vue.js App"/>
+  <!--HelloWorld msg="Welcome!! to Your Vue.js App"/-->
   <SideBar title="だぞ💛"/>
+  <MainPage title=""/>
+  <FooterArea />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 import SideBar from './components/SideBar.vue'
+import MainPage from './components/MainPage.vue'
+import FooterArea from './components/FooterArea.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    SideBar
+    //HelloWorld,
+    SideBar,
+    MainPage,
+    FooterArea
   }
 }
 </script>

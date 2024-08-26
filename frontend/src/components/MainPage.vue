@@ -1,10 +1,15 @@
 <template>
-<div>sidebar</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  MainPage
+</button>
+<i class="bi bi-ban"></i>
+
 </template>
   
   <script>
   export default {
-    name: 'SideBar',
+    name: 'MainPage',
     props: {
       title: String
     }
