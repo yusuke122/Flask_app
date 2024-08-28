@@ -13,11 +13,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@arcgis/core": "^4.30.9",
     "@vue/compat": "^3.4.38",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "chartjs": "^0.3.24",
     "core-js": "^3.8.3",
+    "esri": "^0.0.1-security",
     "vue": "^3.2.13"
   },
   "devDependencies": {
